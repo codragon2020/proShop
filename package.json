@@ -1,0 +1,24 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codragon2020/proShop.git"
+  },
+  "author": "Jason McGinthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codragon2020/proShop/issues"
+  },
+  "homepage": "https://github.com/codragon2020/proShop#readme"
+}
