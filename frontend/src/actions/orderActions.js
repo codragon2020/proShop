@@ -9,7 +9,8 @@ import {
 } from '../constants/orderConstants';
 
 export const createOrder = (order) => async (dispatch, getState) => {
-	try {
+	console.log(order)
+  try {
 		dispatch({
 			type: ORDER_CREATE_REQUEST,
 		});
@@ -43,7 +44,8 @@ export const createOrder = (order) => async (dispatch, getState) => {
 };
 
 export const getOrderDetails = (id) => async (dispatch, getState) => {
-	try {
+	//console.log(id)
+  try {
 		dispatch({
 			type: ORDER_DETAILS_REQUEST,
 		});
@@ -58,8 +60,8 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
 			},
 		};
 
-		const { data } = await axios.get(`/api/orders${id}`, config);
-
+		const { data } = await axios.get(`/api/orders/${id}`, config);
+    
 		dispatch({
 			type: ORDER_DETAILS_SUCCESS,
 			payload: data,
