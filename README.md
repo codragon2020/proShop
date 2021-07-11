@@ -4,7 +4,7 @@
 
 [Heroku Deployed App](https://murmuring-brushlands-11542.herokuapp.com/)
 
-This is the course project for my [MERN eCommerce From Scratch](https://www.udemy.com/course/mern-ecommerce) course
+Built from [MERN eCommerce From Scratch](https://www.udemy.com/course/mern-ecommerce) course
 
 ![screenshot](./uploads/Screenshot_2021-07-11_060848.png)
 
